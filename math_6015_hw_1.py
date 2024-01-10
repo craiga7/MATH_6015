@@ -5,4 +5,5 @@ AFFILIATION: University of Cincinnati
 DATE: 17JAN24
 ASSIGNMENT: HW 1
 """
-
+a = 1+1
+print(a)
