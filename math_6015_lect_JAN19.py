@@ -77,7 +77,7 @@ print("Evens: ", x[::2])
     # Precondition
     # Control Structure: Operations to Execute
     # Postcondition
-
+23
 ## IF-THEN-ELSE
 print("Working with Conditionals")
 x = int(input("ENTER AN INTERGER, NOW... AGHGHGH: "))
@@ -106,7 +106,7 @@ print(value)
 ## COMPARING FLOATS
 print("WORKING WITH COMPARISON OF FLOATS")
 x = 0.1 + 0.2
-tol = 1e-10
+tol = 1e-14
 if abs(x-0.3) < tol:        # Taking a sharp boundary and by using absolute value makes a blurred boundary
     print("Works as expected")
 else:

@@ -34,7 +34,7 @@ testStr = "test"
 print('Test String', testStr)
 print("This is a "+ testStr) # '+' is used as a method of concatenation, for this use case strings are concatenated.
 print(testStr[0])
-print(testStr[2])
+print(testStr[-1])
 
 # INTEGERS/FLOATS TO STRINGS
 # Types
@@ -78,13 +78,13 @@ name = input("Enter your first name: ")
 print('The name you entered is: ', name)
 
 # Always return a string
-# inStr = input("Please enter your age: ")
-# age = int(inStr)
-# print("Next year you will be: ", age+1)
-# finStr = input("Enter a number: ")
-# print("You entered {:.3g} to three digits".format(float(finStr)))
+inStr = input("Please enter your age: ")
+age = int(inStr)
+print("Next year you will be: ", age+1)
+finStr = input("Enter a number: ")
+print("You entered {:.3g} to three digits".format(float(finStr)))
 
-## DATA STRUCTURE
+# DATA STRUCTURE
 # ARRAYS, List, Dictionary/Map, Record/Tuple/Structure, SETS, Multimap, Stack
 # Stack, Queue, Priority Queue, Tree, Graph
 

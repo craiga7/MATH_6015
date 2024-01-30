@@ -33,7 +33,7 @@ for test_num in numbers:
             flag = False
             break
     if flag:
-            break
+        break
 print(f" {test_num:5g} is the largest prime less than {max_num:10g}")
 
 # Think about the methods of max_num less than 4 and what happens when someone puts in a string
