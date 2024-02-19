@@ -16,8 +16,19 @@ import scipy.linalg as la
 
 # Problem #1
 def solve_pei(N, alpha):
-    return np.zeros(N)
+    # A = alpha*Identity + 1
+    # alpha != 0 , -n
+    # 1 = 
+    A = alpha*np.eye((N)) + np.ones((N,N))
+    # b_i = alpha + N
+    b = (alpha + N)*np.ones((N,))
+
+    # scipy.linalg.solve
+    x = la.solve(A,b)
+
+    return x
 
 # Problem #2
-def solve_fdm(N):        
+def solve_fdm(N):    
+
     return np.zeros(N)
