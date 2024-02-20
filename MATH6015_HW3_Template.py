@@ -30,5 +30,5 @@ def solve_pei(N, alpha):
 
 # Problem #2
 def solve_fdm(N):    
-
+    x = 0 
     return np.zeros(N)
